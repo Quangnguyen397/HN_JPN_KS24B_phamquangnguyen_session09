@@ -1,0 +1,27 @@
+*{
+    margin: 3px;;
+    padding: 0;
+}
+
+
+.content {
+    padding:10px;
+    border: 1px solid black;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-evenly;
+}
+ .item1 {
+    background-color:green;
+        height:100px;
+        width:23%;
+       gap:5px;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        border-radius: 5px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+}

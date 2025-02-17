@@ -1,0 +1,42 @@
+* {
+    margin: 3px;
+    
+    padding: 0;
+}
+
+
+.content {
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-evenly;
+}
+
+.item1 {
+    background-color:rgb(77, 88, 252);
+    height: 100px;
+    width: 23%;
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item2{
+    background-color: rgb(77, 88, 252);
+    height: 100px;
+    width: 48%;
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

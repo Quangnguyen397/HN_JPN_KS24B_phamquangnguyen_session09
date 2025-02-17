@@ -1,0 +1,54 @@
+* {
+    width: 3;
+    padding: 0;
+}
+.tittle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: rgb(29, 25, 25);
+    color:floralwhite;
+    
+}
+ .tittle p {
+     margin: 0px;
+ }
+
+ .tittle a {
+     margin-right: 15px;
+ }
+ .myblog{
+    display: flex;
+    flex-direction: column;
+    margin-left: 350px;
+
+ }
+ .body{
+    padding: 10px;
+   
+    height: auto;
+    width: 30%;
+    margin: 0 auto;
+    margin-left: 220px;
+   border-radius:5px;
+   background-color: rgb(187, 187, 187);
+} .body2 {
+     padding: 10px;
+     
+     height: auto;
+     width: 30%;
+     margin: 0 auto;
+     margin-left: 220px;
+     border-radius: 5px;
+     background-color: rgb(231, 231, 231);
+ }
+ .footer{
+    background-color: rgb(29, 25, 25);
+    color:floralwhite;
+    padding:1px;
+ }
+ .copy{
+    text-align: center;
+ }
